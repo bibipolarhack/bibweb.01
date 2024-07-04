@@ -1,0 +1,1040 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A well made and handcrafted Bootstrap 5 template">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/svg" sizes="32x32" href="img/favicon-32x32.svg">
+  <link rel="icon" type="image/svg" sizes="16x16" href="img/favicon-32x32.svg">
+  <link rel="icon" type="image/svg" sizes="96x96" href="img/favicon-32x32.svg">
+
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bipolar. Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap" rel="stylesheet">
+
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>bipolar. A</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .contenedor {
+      width: 100%;
+      padding: 0 15px;
+    }
+
+    img,
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('fonts/inter-v12-latin-300.woff2') format('woff2'),
+        url('fonts/inter-v12-latin-300.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local(''),
+        url('fonts/inter-v12-latin-regular.woff2') format('woff2'),
+        url('fonts/inter-v12-latin-regular.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('fonts/inter-v12-latin-500.woff2') format('woff2'),
+        url('fonts/inter-v12-latin-500.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('fonts/inter-v12-latin-700.woff2') format('woff2'),
+        url('fonts/inter-v12-latin-700.woff') format('woff');
+    }
+
+
+    .py-vh-5 {
+      padding-top: 15vh;
+      padding-bottom: 12vh;
+    }
+
+
+    .btn {
+      --bs-btn-padding-x: 5.0rem;
+    }
+
+    @media (min-width: 1200px) {
+      .col-xl-10 {
+        flex: 0 0 auto;
+        width: 83.33333%;
+        padding-bottom: 12px;
+      }
+    }
+
+    .underlined {
+      text-decoration: underline;
+    }
+
+
+    /* Logo */
+
+    .logo-size {
+      width: 150px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .logo-size {
+        width: 150px;
+      }
+
+      .btn {
+        --bs-btn-padding-x: 8.75rem;
+        --bs-btn-padding-x: 8.75rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .hover-button {
+      background-color: #ffffff;
+      font-weight: 550;
+      color: #000000;
+      cursor: pointer;
+      transition: background-color 0.9s ease;
+    }
+
+    .hover-button:hover {
+      background-color: #B2EE00 !important;
+      color: #000000 !important;
+    }
+
+    @media (min-width: 1200px) {
+      .display-4 {
+        font-size: 3rem;
+      }
+    }
+
+
+    .checkbtn {
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      display: none;
+    }
+
+    #check {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .checkbtn {
+        display: flex;
+        order: 1;
+        margin: right 0;
+        margin-left: 285px;
+        top: 100px;
+        margin-top: -69px;
+
+      }
+
+      .navbar-dark a.nav-link {
+        color: #f9f9f9;
+        font-weight: 500;
+      }
+
+      .navbar-dark a.nav-link:hover {
+        border-bottom: 2px solid #ffffff;
+      }
+
+      ul {
+        position: fixed;
+        top: 95px;
+        right: -100%;
+        background-color: #111111;
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+      }
+
+      ul li {
+        margin: 20px 0;
+      }
+
+      ul li a {
+        font-size: 20px;
+      }
+
+      #check:checked~ul {
+        right: 0;
+      }
+
+      .navbar-nav.list-group-horizontal {
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .navbar-nav.list-group-horizontal>li {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+    }
+
+    .right-element {
+      position: fixed;
+      top: 30px;
+      right: 200px;
+      background-color: #ffcc0000;
+      padding: 10px 90px 10px 90px;
+      border: 1px solid #ffffff;
+    }
+
+
+    @media (max-width: 768px) {
+    .titulo-mobile{
+      margin-top: 50px;
+    }
+
+    .card-margintop{
+      margin-top: 0px !important;
+    }
+
+      .right-element {
+        position: static;
+        top: auto;
+        right: auto;
+        background-color: transparent;
+        padding: 15px;
+      }
+
+      .logo-size {
+        width: 170px;
+        /* margin-left: 120px;          */
+      }
+
+      .area {
+        display: none;
+      }
+
+      .py-vh-5 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+      }
+    }
+
+
+    .navbar>.container,
+    .navbar>.container-fluid {
+      padding-right: 200px;
+    }
+
+
+    .area {
+      background: #4e54c8;
+      background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+      width: 100%;
+
+
+    }
+
+    .circles {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .circles li {
+      position: absolute;
+      display: block;
+      list-style: none;
+      width: 20px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      animation: animate 25s linear infinite;
+      bottom: -150px;
+
+    }
+
+    .circles li:nth-child(1) {
+      left: 25%;
+      width: 80px;
+      height: 80px;
+      animation-delay: 0s;
+    }
+
+
+    .circles li:nth-child(2) {
+      left: 10%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 2s;
+      animation-duration: 12s;
+    }
+
+    .circles li:nth-child(3) {
+      left: 70%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 4s;
+    }
+
+    .circles li:nth-child(4) {
+      left: 40%;
+      width: 60px;
+      height: 60px;
+      animation-delay: 0s;
+      animation-duration: 18s;
+    }
+
+    .circles li:nth-child(5) {
+      left: 65%;
+      width: 20px;
+      height: 20px;
+      animation-delay: 0s;
+    }
+
+    .circles li:nth-child(6) {
+      left: 75%;
+      width: 110px;
+      height: 110px;
+      animation-delay: 3s;
+    }
+
+    .circles li:nth-child(7) {
+      left: 35%;
+      width: 150px;
+      height: 150px;
+      animation-delay: 7s;
+    }
+
+    .circles li:nth-child(8) {
+      left: 50%;
+      width: 25px;
+      height: 25px;
+      animation-delay: 15s;
+      animation-duration: 45s;
+    }
+
+    .circles li:nth-child(9) {
+      left: 20%;
+      width: 15px;
+      height: 15px;
+      animation-delay: 2s;
+      animation-duration: 35s;
+    }
+
+    .circles li:nth-child(10) {
+      left: 85%;
+      width: 150px;
+      height: 150px;
+      animation-delay: 0s;
+      animation-duration: 11s;
+    }
+
+
+
+    @keyframes animate {
+
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.5;
+        border-radius: 0;
+      }
+
+      100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+      }
+
+    }
+
+
+    .experienciadeusuario-text {
+      font-family: "Lobster", sans-serif;
+      font-size: larger;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+    .right-element {
+      top: 15px;
+    }
+
+    .font-weight{
+      font-weight: 700;
+    }
+
+    .text-secondary2 {
+  color: white!important;
+}
+
+  </style>
+
+
+</head>
+
+<body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-dark bg-black fixed-top px-vw-5" tabindex="0">
+
+    <div class="container">
+
+      <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+        <img src="./img/Logo-bipolar.svg" class="img-fluid logo-size logo" alt="Logo Bipolar">
+      </a>
+      <input class="navbar" type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+
+
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+
+        <li class="nav-item active">
+
+          <a class="nav-link fs-5" href="#inicio" aria-label="Inicio">
+            Inicio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#nosotros" aria-label="Nosotros">
+            Nosotros
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#portfolio" aria-label="Portfolio">
+            Portfolio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="#Servicios" aria-label="Servicios">
+            Servicios
+          </a>
+        </li>
+
+        <div>
+          <li class="nav-item">
+            <a href="./FORMULARIO/contact.html" aria-label="Download this template"
+              class="btn btn-outline-light fs-5 right-element">
+              <small>Contacto</small>
+            </a>
+          </li>
+        </div>
+
+
+      </ul>
+
+
+    </div>
+  </nav>
+
+
+
+  <main id="inicio">
+    <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
+      <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
+      <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
+        <div class="row d-flex align-items-center justify-content-center py-vh-5">
+          <div class="col-12 col-xl-10">
+            <span class="h5 text-secondary fw-lighter">bipolar.</span>
+            <h1 class="display-huge mt-3 mb-3 lh-1">Desarrollamos tus ideas con foco en la <span style="color: #B2EE00;"
+                class="experienciadeusuario-text">experiencia de usuario</span></h1>
+          </div>
+
+          <div class="col-12 col-xl-8">
+            <p class="lead text-secondary">Cambiemos las reglas del juego en la era digital</p>
+          </div>
+
+          <div class="col-12 text-center">
+            <a href="/FORMULARIO/contact.html" class=" btn btn-white btn-xl shadow me-1 mb-5 hover-button">Contactanos
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+
+              </svg>
+
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
+      <div class="container-fluid px-vw-5">
+        <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
+        <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+          <div class="col-12 col-lg-6">
+            <img src="img/webp/gif3-bipolar.gif" width="2280" height="1732" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/webp/gif2-bipolar-natu.gif" width="1116" height="1578" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="2000">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="img/webp/gif1-bipolar.gif" width="1116" height="848" alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" data-aos-duration="3000">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark" id="nosotros">
+      <div class="container px-vw-5 py-vh-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+
+            <span class="h5 text-secondary fw-lighter">¿Por qué <b
+                style="font-weight: 700; color: #B2EE00;">bipolar.</b>?</span>
+            <h2 class="display-4">Buscamos versatilidad y creatividad en nuestras estrategias. Somos un grupo de
+              profesionales
+              de diferentes áreas, con capacidad para adaptarnos a distintas personalidades y necesidades de nuestros
+              clientes
+            </h2>
+          </div>
+          <div class="col-12 col-lg-5" data-aos="fade-left">
+            <h3 class="pt-5">¿Qué hacemos?</h3>
+            <p class="text-secondary">Creamos experiencias digitales innovadoras y efectivas para empresas que buscan
+              destacar en un mercado en constante evolución.<br>
+
+
+              </svg>
+            </p>
+            <h3 class="border-top border-secondary pt-5 mt-5">¿Por qué lo hacemos?</h3>
+            <p class="text-secondary">Lo hacemos porque creemos en el poder de la transformación digital para potenciar
+              el crecimiento y el éxito de nuestros clientes.<br>
+
+              </svg>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-black py-vh-3">
+      <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
+
+        <div class="row gx-5" id="portfolio">
+          <div class="col-12 col-md-6">
+            <div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="img/webp/quantum.gif" width="678" height="327" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">Quantum Space | Organización de equipos IT</h2>
+                  <p class="pb-4 text-secondary">Una plataforma que permite a los equipos multidisciplinarios mejorar la
+                    comunicación, facilitar la administración de tareas de un proyecto y enriquecer aún más la
+                    construcción de productos y servicios exitosos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-transparent" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="img/webp/calmup.gif" width="678" height="442" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">CalmUp! | Meditacion </h2>
+                  <p class="pb-4 text-secondary">CalmUp! Una aplicación para brindarte apartados de relajación,
+                    meditación y también ayudarte a dormir con secciones personalizadas al usuario con diferentes
+                    categorías.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="p-5 pt-0 mt-5" data-aos="fade">
+              <span class="h5 text-secondary fw-lighter">Portfolio</span>
+              <h2 class="display-4">Nuestra magia puesta en acción</h2>
+            </div>
+            <div class="card bg-transparent mb-5 mt-5 card-margintop" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="img/webp/trench.gif" width="678" height="390" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">TRENCH | Snack Bar</h2>
+                  <p class="pb-4 text-secondary">Trench un snack bar que se centra principalmente en satisfacer y
+                    brindar momentos para compartir un encuentro, nos caracterizamos por la calidad de poder brindar un
+                    ambiente agradable y de calidad. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-transparent" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="img/webp/safehub.gif" width="678" height="327" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">SafeHub | Seguridad comunitaria</h2>
+                  <p class="pb-4 text-secondary">Es una app de seguridad comunitaria creada para la prevenir y dar
+                    respuesta a la inseguridad. Permite a los usuarios colaborar con otros ciudadanos previamente
+                    verificados, para identificar puntos conflictivos, compartir consejos y enviar alertas de seguridad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    </div>
+
+
+    <div class="container-fluid px-vw-5 position-relative" data-aos="fade">
+
+      <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
+
+
+
+    </div>
+    </div>
+
+
+    <main>
+      <div class="container" id="Servicios">
+        <div class="row d-flex justify-content-center py-vh-5 pb-0">
+          <div class="col-12 col-lg-10 col-xl-8">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="display-1 fw-bold">Servicios
+                  <span class="fs-4"> </span><br>
+                </h1>
+                <p class="lead border-top pt-5 mt-5" data-aos="fade-up">Nos encanta dar vida a tus ideas. Buscamos que cada proyecto brille con luz propia, poniendo nuestra creatividad e innovación a tu disposición.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 py-vh-2">
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8">
+            <div class="row d-flex align-items-start" data-aos="fade-right">
+              <div class="col-12 col-lg-7">
+                <h2 class="h3 mt-5 border-top pt-5 font-weight">Diseño</h2>
+                <p class="text-secondary2">Nos define la pasión por diseñar experiencias únicas y memorables. A través de nuestras creaciones, disfrutamos de contar historias que tengan a las personas usuarias como protagonistas. Ponemos un énfasis especial en que las cosas que hacemos sean fáciles de usar.</p>
+              </div>
+              <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5" style="border-radius: 24px;">
+                <h3 class="h6">Areas:</h3>
+                <p class="text-secondary">
+                  • Diseño UX UI <br>
+                  • Diseño Gráfico <br>
+                  • Branding <br>
+                </p>
+              </div>
+            </div>
+
+            <div class="row d-flex align-items-start" data-aos="fade-right">
+              <div class="col-12 col-lg-7">
+                <h2 class="h3 mt-5 border-top pt-5 font-weight">Marketing</h2>
+                <p class="text-secondary2">Para nosotros el marketing es el arte de conectar genuinamente con tu
+                  audiencia.
+                  Nuestro enfoque se centra en comunicar tu mensaje con impacto y claridad, para lograr una marca
+                  auténtica, duradera y orgánica, haciendo que cada campaña sea inolvidable.</p>
+              </div>
+              <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5" style="border-radius: 24px;">
+                <h3 class="h6">Areas:</h3>
+                <p class="text-secondary">
+                  • Plan de Marketing <br>
+                  • Plan de Redes Sociales <br>
+                  • SEO / SEM <br>
+                  • Customer Experience (CX)<br>
+                  • Benchmarking <br>
+                  • Email Marketing <br>
+                </p>
+              </div>
+            </div>
+            <div class="row d-flex align-items-start" data-aos="fade-right">
+              <div class="col-12 col-lg-7">
+                <h2 class="h3 mt-5 border-top pt-5 font-weight">Desarrollo</h2>
+                <p class="text-secondary2">Nos encanta crear productos personalizados que respondan a las necesidades específicas del negocio. Con un enfoque en la innovación y la excelencia técnica, transformamos tus ideas en una realidad digital.</p>
+              </div>
+              <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5" style="border-radius: 24px;">
+                <h3 class="h6">Areas:</h3>
+                <p class="text-secondary">
+                  • Aplicaciones Móviles <br>
+                  • Sitios Web <br>
+                  • Software Personalizado <br>
+                  • E-commerce <br>
+                  • Integraciones de Sistemas <br>
+                  • Ciberseguridad <br>
+                  • Desarrollo de API <br>
+                </p>
+              </div>
+            </div>
+            <div class="row d-flex align-items-start" data-aos="fade-right">
+              <div class="col-12 col-lg-7">
+                <h2 class="h3 mt-5 border-top pt-5 font-weight">Consultoria</h2>
+                <p class="text-secondary2">Creemos en nuestra consultoría estratégica como el motor de tu transformación empresarial. Nos especializamos en identificar potenciales problemas, analizar hallazgos y detectar insights, ofreciendo soluciones prácticas que impulsen el éxito de tu producto a largo plazo.</p>
+              </div>
+              <div class="col-12 col-lg-4 offset-lg-1 bg-gray-900 p-5 mt-5" style="border-radius: 24px;">
+                <h3 class="h6">Areas:</h3>
+                <p class="text-secondary">
+                  • Usabilidad & Accesibilidad Web <br>
+                  • CUX / CX / EX <br>
+                  • SEO / SEM <br>
+                  • Estrategias para redes sociales <br>
+                </p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+        <div class="row d-flex align-items-start justify-content-center py-vh-3 text-muted" data-aos="fade">
+
+        </div>
+      </div>
+
+    </main>
+
+
+    <div class="bg-dark py-vh-5">
+
+      
+      <div class="container px-vw-5">
+
+        
+        <div class="row d-flex gx-5 align-items-center">
+
+          
+          <div class="col-12 col-lg-6">
+            
+            <div class="rounded-5 bg-black p-5 shadow" data-aos="zoom-in-right">
+
+
+
+              
+              <div class="fs-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+              </div>
+              <p class="text-secondary lead">Los chicos de Bipolar me ayudaron a desarrollar mi negocio.
+                Su visión de experiencia de usuario me abrió la mente para tomar mejores decisiones. Son un 10!</p>
+              <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
+                <img src="img/webp/persona1.png" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+                  data-aos="fade" loading="lazy">
+                <div>
+                  <span class="h6 fw-5">Constanza Brusadin</span><br>
+                  <small class="text-secondary">Co - fundadora Pyxis</small>
+                </div>
+              </div>
+            </div>
+            <div class="rounded-5 bg-black p-5 shadow mt-5" data-aos="zoom-in-right">
+              <div class="fs-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-half" viewBox="0 0 16 16">
+                  <path
+                    d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                </svg>
+
+              </div>
+              <p class="text-secondary lead">Trabajar con Bipolar fue una experiencia super positiva para nosotros.
+                Supieron captar rápidamente lo que necesitábamos. Tienen un gran enfoque estratégico y atención al
+                detalle, lo que nos permitió a alcanzar nuevos niveles de éxito. Los vuelvo a elegir sin dudar.</p>
+              <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
+                <img src="img/webp/persona2.png" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+                  data-aos="fade" loading="lazy">
+                <div>
+                  <span class="h6 fw-5">Maria Victoria Sassola</span><br>
+                  <small class="text-secondary">CEO Noni Games</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+       <div class="col-12 col-lg-6">
+            <div class="p-5 pt-0 titulo-mobile" data-aos="fade">
+              <span class="h5 text-secondary fw-lighter">Comentarios</span>
+              <h2 class="display-4">Nuestros clientes andan diciendo...</h2>
+            </div>
+            
+            <div class="rounded-5 bg-black p-5 shadow mt-5 gradient card-margintop" data-aos="zoom-in-left">
+              <div class="fs-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+
+
+              </div>
+              <p class="lead">Es bueno saber que existen profesionales como los chicos de Bipolar. Fueron mis socios
+                estratégicos en UX!</p>
+              <div class="d-flex justify-content-start align-items-center border-top pt-3">
+                <img src="img/webp/persona3.png" width="96" height="96" class="rounded-circle me-3" alt="a nice person"
+                  data-aos="fade" loading="lazy">
+                <div>
+                  <span class="h6 fw-5">Federico Giraudo</span><br>
+                  <small>Desarrollador</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Fondo -->
+
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+
+  </main>
+
+
+
+  <footer class="bg-black border-top border-dark">
+    <div class="container py-vh-4 text-secondary fw-lighter">
+      <div class="row">
+        <div class="col-12 col-lg-5 py-4 text-center text-lg-start">
+          <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+            <img src="./img/Logo-bipolar.svg" class="img-fluid logo-size logo" alt="Logo Bipolar">
+          </a>
+
+        </div>
+
+        <div class="col border-end border-dark" style="display: flex;justify-content: center;align-items: center;">
+          <a href="https://www.linkedin.com/company/bipolar-agency/about/?viewAsMember=true" target="_blank"
+            class="link-fancy link-fancy-light">Linkedin</a>
+
+
+        </div>
+
+
+        <div class="col border-end border-dark " style="display: flex;justify-content: center;align-items: center;">
+
+          <a href="https://www.instagram.com/bipolaragency/" target="_blank"
+            class="link-fancy link-fancy-light">Instagram</a>
+
+
+          </ul>
+        </div>
+
+        <div class="col" style="display: flex;justify-content: center;align-items: center;">
+          <a href="./FORMULARIO/contact.html" target="_blank" class="link-fancy link-fancy-light">Email</a>
+
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container text-center small py-vh-2 border-top border-dark">2024
+      <a href="/index.html" class="link-fancy link-fancy-light" target="_blank">bipolar. Agency</a>
+    </div>
+  </footer>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+    });
+  </script>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) {
+        add_class_on_scroll()
+      } else {
+        remove_class_on_scroll()
+      }
+
+      console.log(scrollpos)
+    })
+
+
+    const menuLinks = document.querySelectorAll('.nav-link');
+
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('check').checked = false;
+      });
+    });
+  </script>
+
+
+
+</body>
+
+
+</html>
